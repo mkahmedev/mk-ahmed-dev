@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 header{
     width: 100%;
     height: 100vh;
@@ -36,6 +42,11 @@ nav button{
     margin-left: 10px;
     width: 132px;
     height: 48px;
+    cursor: pointer;
+}
+nav button:hover{
+    font-size: 18px;
+    background-color: #130bf4;
 }
 
 /* nav style end Alhamdulillah */
@@ -78,5 +89,67 @@ border: none;
 border-radius: 10px;
 font-size: 16px;
 font-weight: bold;
+cursor: pointer;
+}
+.benar button:hover{
+    font-size: 18px;
+    background-color:  #130bf4;
+}
+/* main section */
+main{
+    width: 100%;
+    height: 100vh;
+    margin-top: 170px;
+}
+section div h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.action-div1 .pera1{
+    width: 517px;
+    height:60px ;
+    font-size: 24px;
+    color: #8c8e98;
+    
+}
+section div button{
+    width:229px ;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding:36, 12;;
+    background-color:#4E47FF ;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+    
+ section div button:hover{
+    font-size: 18px;
+     background-color:#130cf1 ;
+ }
 
+.action-div1{
+
+    width: 517px;
+    height: 203px;
+   
+ 
+
+}
+.action{
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-left: 140px;
+}
+.action img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
