@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .raleway-font{
@@ -10,6 +11,15 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 
 header{
     width: 100%;
@@ -153,3 +163,48 @@ section div button{
     height: 328px;
     border-radius: 48px;
 }
+/* main section end alhamdulillah */
+/* number3 section in start */
+
+.perent1 {
+    width: 1140px;
+    height: 306px;
+    /* padding: 50px 80px; */
+    display: flex;
+    justify-content: center;
+    margin: 116px auto;
+    
+   
+  
+}
+.continar-perent{
+    width: 1256px;
+    height: 206;
+    background-color:  #e5e7ff;
+     border-radius: 24px;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.hed-title{
+    width: 856px;
+    height: 45px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+}
+.number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4e47ff;
+}
+.name{
+    font-size: 20px;
+    
+    color: #72737f;
+}
+
+
