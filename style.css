@@ -212,6 +212,7 @@ section div button{
     display: flex;
     justify-content: center;
     gap: 20px;
+   margin-bottom: 137px;
 }
 .back{
     
@@ -267,3 +268,42 @@ section div button{
     color: #B3B3B3;
 }
 /* Feedback Section end Alhamdulillah */
+.thanks{
+    width:1140px ;
+    height:696.77px ;
+    background-color:#fafcff ;
+  
+    text-align: center;
+    border-radius: 14px;
+   margin: 0 auto;
+   
+}
+.thanks h1 {
+    width:516px ;
+    height:60px ;
+    font-size:50px ;
+    font-weight: bold;
+    margin: 20px  auto;
+    /* text-align: center; */
+}
+.thanks p{
+    width:487px ;
+    height: 22px;
+    color: #808080;
+    margin: 0 auto;
+}
+.buttons{
+    
+    width: 195px;
+    height: 48px;
+    /* margin-bottom: 20px; */
+    
+    
+}
+ .thanks img {
+   width:840px ;
+   height: 364.77px;
+   border-radius: 48px;
+   margin-top: 65px;
+   
+}
