@@ -136,6 +136,8 @@ section div button{
     cursor: pointer;
     margin-top: 23px;
 }
+
+
     
  section div button:hover{
     font-size: 18px;
@@ -297,10 +299,12 @@ section div button{
     
     width: 195px;
     height: 48px;
+    cursor: pointer;
     /* margin-bottom: 20px; */
     
     
 }
+
  .thanks img {
    width:840px ;
    height: 364.77px;
@@ -311,6 +315,7 @@ section div button{
 
 .login{
     margin-top: 50px;
+    background-color: #f5f8ff;
 }
 
 .form1{
@@ -351,6 +356,7 @@ section div button{
     border-radius: 10px;
     width: 497px;
     height: 135px;
+    border: 0.5px solid #D6DDED;
 
 }
 .submit{
@@ -360,7 +366,52 @@ section div button{
 }
 /* end log in */
 /* start footer */
-/* footer{ */
-    /* width:100%; */
-    /* height:428px ; */
-/* } */
+
+header{
+    background-color: #f5f8ff;
+}
+main{
+     background-color: #f5f8ff;
+
+}
+footer{
+    width:100%;
+    height:428px ;
+    background-color:#ffffff;
+    margin-top: 104px;
+    
+}
+.foot{
+    width:531px ;
+    height:177px ;
+    color:  #8987A1;
+    margin: 0 auto;
+}
+.foot h1{
+    width:291px;
+    height:121px;
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bolder;
+    margin: 0 auto;
+    
+    
+}
+.foot p{
+    width:531px ;
+    height:48px ;
+    color: #8987A1;
+    margin-bottom: 20px;
+    
+}
+.foot ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 48px;
+}
+.foot ul li{
+    list-style: none;
+    
+   
+}
