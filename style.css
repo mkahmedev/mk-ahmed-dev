@@ -6,6 +6,10 @@
     
 }
 
+body {
+    background-color: #f5f8ff;
+}
+
 .raleway-font{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -272,8 +276,8 @@ section div button{
 /* Feedback Section end Alhamdulillah */
 /* start log in */
 .thanks{
+    padding: 70px 0;
     width:1140px ;
-    height:696.77px ;
     background-color:#fafcff ;
   
     text-align: center;
@@ -375,9 +379,8 @@ main{
 }
 footer{
     width:100%;
-    height:428px ;
     background-color:#ffffff;
-    margin-top: 104px;
+    padding: 104px 0;
     
 }
 .foot{
@@ -401,6 +404,7 @@ footer{
     height:48px ;
     color: #8987A1;
     margin-bottom: 20px;
+    text-align: center;
     
 }
 .foot ul{
