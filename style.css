@@ -336,6 +336,7 @@ section div button{
 .form{
     width:497px ;
     height: 490px;
+    padding: 40px;
 }
 .form input{
     width: 497px;
